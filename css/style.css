@@ -1,0 +1,20 @@
+.bg-black {
+  background-color: #000;
+}
+
+#main-header .port-item {
+  width: 25%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+/* Khi màn hình rộng thì tăng padding để nó choán chỗ xuống */
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3rem !important;
+  }
+}
